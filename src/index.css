@@ -1,0 +1,69 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(47, 146, 185, 0.165);
+  width: 100%;
+}
+
+.myPic {
+  height: auto;
+  width: 100%;
+  margin: 0px;
+  border: none;
+}
+
+.headerDiv {
+  margin: 0px;
+}
+
+.profile{
+  margin: 20px;
+  border-color: black;
+  border: 1px solid;
+  text-align: center;
+  display: inline-block;
+}
+
+.mainHeader {
+  background-color: rgba(47, 146, 185, 0.165);
+  color: black;
+}
+
+.personalInfoTable {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personalInfoTable .personalInfoCaption{
+  border: rgb(25, 137, 150) solid;;
+  margin: 0px;
+  font-weight: bold;
+}
+
+.personalInfoTable .personalInfoCell {
+  border: rgb(25, 137, 150) solid;
+}
+
+.footerClass{
+  text-align: center;
+}
+
+.busanPicture {
+  max-height: 275px;
+  width: 100%;
+}
+.content {
+  display: inline-block;
+  margin-left: 370px;
+  border: rgb(31, 224, 231) solid;
+  padding: 20px;
+}
+.content .contentList{
+  font-size: 35px;
+}
+
+.content .contentList .listItem {
+  padding: 10px;
+}
